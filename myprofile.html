@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap/bootstrap-5.3.5-dist/css/bootstrap.min.css"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/myprofile.css" />
+    <!-- font awsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css"
+    />
+    <title>EVS MOTORS</title>
+  </head>
+  <body>
+    <div class="d-flex">
+      <div class="main-bandiv">
+    <header>
+      <!-- topbar -->
+      <div class="topbar">
+        <div class="container">
+          <div class="row main-heading">
+            <div class="col">
+              <a href="#">phn:888-188-881,885-551-051</a>
+            </div>
+            <div class="col part2">
+              <a href="#"
+                ><i class="fa-solid fa-envelope"></i> evsmotors@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/Group 29.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Faq</a>
+              </li>
+            </ul>
+            <div class="but">
+              <a href="#" class="btn">Log In</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- banner -->
+    <main>
+      <section class="banner section-padding">
+        <div class="container">
+          <div class="heading">
+            <h1>Expert EV Maintenance & Repair Keep Your Ride Powered Up</h1>
+            <p>
+              Comprehensive servicing for electric vehicles – from battery
+              diagnostics to software updates.
+            </p>
+          </div>
+          <button type="button" class="btn btn-prt position-relative">
+            Book a Service
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill"
+              ><img src="./images/Group 120.png" />
+              <span class="visually-hidden">unread messages</span></span
+            >
+          </button>
+        </div>
+        <!-- </div> -->
+      </section>
+      
+       <!-- <section class="log-in ">
+        <div class="ban">
+          <div class="main-ban ">
+            <div class="left-ban">
+              <span class="arrow-in me-3"><i class="fa-solid fa-arrow-left"></i></span>
+              <img src="./images/Group 119 (3).png" class="mt-4">
+            </div>
+            <div class="right-ban">
+              <img src="./images/Group 6.png" class="pt-4">
+            </div>
+          </div>
+        </div>
+        <div class="lower-ban">
+         <form>
+          <div class="main-name">
+          <label for="Name">Full Name</label><br>
+          <input type="text" placeholder="Enter Your  Name" name="name" id="name">
+          <p class="error nameErr"></p>
+          </div><br>
+          <div class="main-name">
+          <label for="No">Phone Number</label><br>
+          <input type="no" placeholder="Enter Your  Number" name="no" id="no">
+          <p class="error noErr"></p>
+          </div><br>
+           <div class="main-name">
+          <label for="emailid">Your Email</label><br>
+          <input type="email" placeholder="EnterYour Email" name="emailid" id="emailid">
+          <p class="error mailErr"></p>
+          </div><br>
+          <div class="main-name">
+          <label for="pwd">password</label><br>
+          <input type="password" placeholder="Enter Your password" name="pwd" id="pwd">
+          <p class="error pwdErr"></p>
+          <a href="#" class="eye-bt pt-2"><i class="fa-solid fa-eye-slash"></i></a>
+          </div><br>
+          <div class="main-name">
+          <label for="cpwd">Confrom Password</label><br>
+          <input type="password" placeholder="Enter Your password" name="cpwd" id="cpwd">
+          <p class="error cpwdErr"></p>
+          <a href="#" class="eye-bt2 "><i class="fa-solid fa-eye-slash"></i></a>
+          </div><br>
+           <div class="main-name">
+          <label for="cpwd">Location</label><br>
+          <input type="text" placeholder="Enter Your Location" name="location" id="location">
+          <p class="error locErr"></p>
+          </div><br>
+          <div class="text-center">
+          <input type="submit" value="CONTINUE" class="con-btn">
+          </div>
+         </form>
+        </div>
+      </section> -->
+
+      <!-- our Experts -->
+      <section class="experts">
+        <div class="container">
+          <div class="heading2">
+            <p>EXPERT TECHNICIAN</p>
+            <h2>Meet Our Experts</h2>
+          </div>
+          <div class="row meet">
+            <div class="col meet-part">
+              <div class="card border-0">
+                <img
+                  src="./images/Rectangle 23.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body body-part">
+                  <p class="card-text textpart">Trent Alexander-Arnold</p>
+                  <p>Engine Expert</p>
+                </div>
+              </div>
+            </div>
+            <div class="col meet-part">
+              <div class="card border-0">
+                <img
+                  src="./images/image (28).png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body body-part">
+                  <p class="card-text textpart">Kevin De Bruyne</p>
+                  <p>Body Expert</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./images/Rectangle 24.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body body-part">
+                  <p class="card-text textpart">Philip Larson</p>
+                  <p>Battery Replacement</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-part">
+            <!-- <div class="col"> -->
+            <div class="left me-3">
+              <i class="fa-solid fa-less-than"></i>
+            </div>
+            <!-- </div> -->
+            <!-- <div class="col"> -->
+            <div class="right">
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- contact through -->
+      <section class="through">
+        <div class="container-fluid">
+          <div class="row row-part">
+            <div class="col">
+              <div class="card card1">
+                <div class="row main-row">
+                  <div class="col">
+                    <img src="./images/image 1.png" class="card-img-top" />
+                  </div>
+                  <div class="col">
+                    <div class="card-body body-1">
+                      <p class="card-text open-mon">
+                        WE ARE OPEN MONDAY-FRIDAY
+                      </p>
+                      <p class="time">7:00 am - 9:00 pm</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card2">
+                <div class="row main-row">
+                  <div class="col have1">
+                    <img src="./images/gg_phone.png" class="card-img-top" />
+                  </div>
+                  <div class="col">
+                    <div class="card-body body-1">
+                      <p class="card-text have">HAVE A QUESTION?</p>
+                      <p class="no">91+8170908583</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card1">
+                <div class="row main-row">
+                  <div class="col">
+                    <img src="./images/image 2.png" class="card-img-top" />
+                  </div>
+                  <div class="col">
+                    <div class="card-body body-1">
+                      <p class="card-text open-mon">
+                        NEED A REPAIR? OUR ADDRESS
+                      </p>
+                      <p class="time">Kolkata, West Bengal</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- partner -->
+      <section class="partner">
+        <div class="container">
+          <p>Our Partners & support</p>
+          <div class="row main-sec">
+            <div class="col">
+              <div class="card border-0">
+                <img src="./images/image 6.png" class="card-img-top" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./images/image 4.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./images/image 3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./images/image 5.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./images/image 7.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- clients say -->
+      <section class="clients">
+        <div class="container">
+          <div class="row main-clients">
+            <div class="col col-part text-center">
+              <div class="card cart-part border-0">
+                <div class="pic mx-auto">
+                  <img src="./images/image 19.png" class="card-img-top" />
+                </div>
+                <div class="card-body">
+                  <p class="card-text no">1,250+</p>
+                  <p>Car Repair Solutions</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-part text-center">
+              <div class="card cart-part border-0">
+                <div class="pic mx-auto">
+                  <img src="./images/image 20.png" class="card-img-top" />
+                </div>
+                <div class="card-body">
+                  <p class="card-text no">10+</p>
+                  <p>Years Experience</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-part text-center">
+              <div class="card cart-part border-0">
+                <div class="pic1 mx-auto">
+                  <img src="./images/image 21.png" class="card-img-top" />
+                </div>
+                <div class="card-body">
+                  <p class="card-text no">100+</p>
+                  <p>Get Wining awards</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-part text-center">
+              <div class="card cart-part border-0">
+                <div class="pic mx-auto">
+                  <img src="./images/image 22.png" class="card-img-top" />
+                </div>
+                <div class="card-body">
+                  <p class="card-text no">150+</p>
+                  <p>Expert Team Members</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about us -->
+      <section class="about-us">
+        <div class="container">
+          <div class="main-about row g-0 bg-light-subtle position-relative">
+            <div class="col-md-6 p-4 ps-md-0">
+              <a href="#" class="ms-5"><img src="./images/Group 90.png" /></a>
+              <h5 class="mt-0 py-3 ms-5">What Our Clients say About Us</h5>
+              <div class="bg-secondary-subtle pt-4 ms-5">
+                <p class="ipsum-part ms-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="stand-man">
+                  <div class="d-flex ms-5 py-5 stand-man">
+                    <div class="me-4">
+                      <img src="./images/image (29).png" />
+                    </div>
+                    <div class="me-5">
+                      <p class="name">Rodrigo De Paul</p>
+                      <p class="cust">Regular Customer</p>
+                    </div>
+                    <div class="col f-star">
+                      <a href="#"><i class="fa-solid fa-star"></i></a>
+                      <a href="#"><i class="fa-solid fa-star"></i></a>
+                      <a href="#"><i class="fa-solid fa-star"></i></a>
+                      <a href="#"><i class="fa-solid fa-star"></i></a>
+                      <a href="#"><i class="fa-solid fa-star"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-part part-two pb-0 pt-2">
+                <!-- <div class="col"> -->
+                <div class="left2 me-3">
+                  <i class="fa-solid fa-less-than"></i>
+                </div>
+                <div class="right2">
+                  <i class="fa-solid fa-greater-than"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-md-0 p-md-4 conversation">
+              <img src="./images/Rectangle 85.png" class="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- motos app -->
+      <section class="motos-app">
+        <div class="container">
+          <div class="main-moto d-flex position-relative">
+            <div class="">
+              <h5 class="mt-0">Download This EVS Motos App</h5>
+              <p class="choose">
+                Choose and book a seamless car service experience and get upto
+                Rs 600 off with the EVS motos App
+              </p>
+            </div>
+            <div class="main-g">
+              <div class="d-flex main-goggle mb-4">
+                <div class="py-2 px-2">
+                  <img src="./images/app 1.png" />
+                </div>
+
+                <div class="pt-2">
+                  <p class="get">GET IT ON</p>
+                  <p class="app">Google Play</p>
+                </div>
+              </div>
+
+              <div class="d-flex main-apple">
+                <div class="py-2 px-2">
+                  <img src="./images/apple (1) 1.png" />
+                </div>
+                <div class="pt-2">
+                  <p class="get">Download on the</p>
+                  <p class="app">App Store</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row foot-list">
+    <div class="col list-firstmain">
+      <a href="#" class="logo"><img src="./images/Group 30.png" /></a>
+      <ul class="list-first">
+              <li class="py-3">
+                <a href="#"
+                  ><span class="me-3 location"
+                    ><i class="fa-solid fa-location-dot"></i
+                  ></span>
+                  Kolkata, West Bengal</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="#" class=""
+                  ><span class=""
+                    ><i class="fa-solid fa-envelope"></i
+                  ></span>
+                  evsmotors@gmail.com</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="#"
+                  ><span class="me-3"><i class="fa-solid fa-phone"></i></span>
+                  8170908583</a
+                >
+              </li>
+            </ul>
+            <div class="f-symbol pb-4">
+             <a href="#" class=""
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="#" class=""
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </div>
+    </div>
+    <div class="col book-mainlist links-part">
+      <span class="quick-text">Quick Links</span>
+       <ul class="book-part">
+              <li class="py-3">
+                <a href="">
+                  <span class="green me-2"
+                    ><i class="fa-solid fa-plus"></i
+                  ></span>
+                  Book Your Service</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="">
+                  <span class="green me-2"><i class="fa-solid fa-plus"></i></span
+                  >Shop</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="">
+                  <span class="green"><i class="fa-solid fa-plus"></i></span
+                  >About Us</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="">
+                  <span class="green me-2"><i class="fa-solid fa-plus"></i></span
+                  >Contact us</a
+                >
+              </li>
+              <li>
+                <a href="">
+                  <span class="green me-2"><i class="fa-solid fa-plus"></i></span
+                  >Faq</a
+                >
+              </li>
+            </ul>
+    </div>
+    <div class="col book-mainlist hour">
+       <span class="quick-text">Working Hour</span>
+        <ul class="book-part">
+              <li class="py-3"><a href="#">Monday</a></li>
+              <li class="pb-3"><a href="#">Tuesday</a></li>
+              <li class="pb-3"><a href="#">Wednesday</a></li>
+              <li class="pb-3"><a href="#">Thrusday</a></li>
+              <li class="pb-3"><a href="#">Friday</a></li>
+            </ul>
+    </div>
+    <div class="col book-mainlist2">
+       <ul class="book-part">
+<li class=""><a href="">7:00 am - 9:00 pm</a></li>
+              <li class=""><a href="">7:00 am - 9:00 pm</a></li>
+              <li class=""><a href="">7:00 am - 9:00 pm</a></li>
+              <li class=""><a href="">7:00 am - 9:00 pm</a></li>
+       </ul>
+    </div>
+  </div>
+        <!-- <div class="row main-foot">
+          <div class="col first">
+            <a href="#" class="logo"><img src="./images/Group 30.png" /></a>
+            <ul class="list-iteam">
+              <li class="py-2">
+                <a href=""
+                  ><span class="me-3"
+                    ><i class="fa-solid fa-location-dot"></i
+                  ></span>
+                  Kolkata, West Bengal</a
+                >
+              </li>
+              <li class="py-2">
+                <a href=""
+                  ><span class="me-3"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></span>
+                  evsmotors@gmail.com</a
+                >
+              </li>
+              <li class="pt-2">
+                <a href=""
+                  ><span class="me-3"><i class="fa-solid fa-phone"></i></span>
+                  8170908583</a
+                >
+              </li>
+            </ul>
+            <div class="f-icon">
+              <a href="#" class="me-3"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="#" class="me-3"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col link-quick">
+            <span class="quick-link">Quick Links</span>
+            <ul class="quick-part mt-4">
+              <li class="py-3">
+                <a href="">
+                  <span class="plus me-2"
+                    ><i class="fa-solid fa-plus"></i
+                  ></span>
+                  Book Your Service</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="">
+                  <span class="plus me-2"><i class="fa-solid fa-plus"></i></span
+                  >Shop</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="">
+                  <span class="plus me-2"><i class="fa-solid fa-plus"></i></span
+                  >About Us</a
+                >
+              </li>
+              <li class="pb-3">
+                <a href="">
+                  <span class="plus me-2"><i class="fa-solid fa-plus"></i></span
+                  >Contact us</a
+                >
+              </li>
+              <li>
+                <a href="">
+                  <span class="plus me-2"><i class="fa-solid fa-plus"></i></span
+                  >Faq</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col working-hour">
+            <span class="quick-link">Working Hour</span>
+            <ul class="quick-part mt-4">
+              <li class="pb-3"><a href="">Monday</a></li>
+              <li class="pb-3"><a href="">Tuesday</a></li>
+              <li class="pb-3"><a href="">Wednesday</a></li>
+              <li class="pb-3"><a href="">Thrusday</a></li>
+              <li class="pb-3"><a href="">Friday</a></li>
+            </ul>
+          </div>
+          <div class="col working-hour">
+            <ul class="quick-part mt-5">
+              <li class="pb-3"><a href="">7:00 am - 9:00 pm</a></li>
+              <li class="pb-3"><a href="">7:00 am - 9:00 pm</a></li>
+              <li class="pb-3"><a href="">7:00 am - 9:00 pm</a></li>
+              <li class="pb-3"><a href="">7:00 am - 9:00 pm</a></li>
+            </ul>
+          </div>
+        </div> -->
+        <!-- <div class="row d-flex lower">
+        
+          <div class="col">
+            <p>
+              Copyright @2025 By <span class="evs">EVS Motor..</span> All Rights
+              Reserved.
+            </p>
+          </div>
+          <div class="col text-end">
+            <p>Privacy Policy | Terms & Condition</p>
+          </div>
+      </div>
+       -->
+    </div><hr style="border : 1px solid white">
+    <div class="container">
+    <div class="row d-flex lower">
+        
+          <div class="col copy-text">
+            <p>
+              Copyright @2025 By <span class="evs">EVS Motor..</span> All Rights
+              Reserved.
+            </p>
+          </div>
+          <div class="col text-end condition-text">
+            <p>Privacy Policy | Terms & Condition</p>
+          </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--  -->
+    <div class="">
+    <div class="log-in ">
+        <div class="ban ">
+          <div class="main-ban ">
+            <div class="left-ban px-5 py-3">
+              <a href="./verification.html" class="arrow-in me-3 mb-5"><i class="fa-solid fa-arrow-left"></i></a>
+              <img src="./images/Group 119 (3).png" class="mt-4">
+            </div>
+            <div class="right-ban px-5">
+              <img src="./images/Group 6.png" class="pt-4">
+            </div>
+          </div>
+        </div>
+        <div class="lower-ban pb-4">
+         <form>
+          <div class="main-name">
+          <label for="Name">Full Name</label><br>
+          <input type="text" placeholder="Enter Your  Name" name="name" id="name">
+          <p class="error nameErr"></p>
+          </div><br>
+          <div class="main-name">
+          <label for="No">Phone Number</label><br>
+          <input type="no" placeholder="Enter Your  Number" name="no" id="no">
+          <p class="error noErr"></p>
+          </div><br>
+           <div class="main-name">
+          <label for="emailid">Your Email</label><br>
+          <input type="email" placeholder="EnterYour Email" name="emailid" id="emailid">
+          <p class="error mailErr"></p>
+          </div><br>
+          <div class="main-name">
+          <label for="pwd">password</label><br>
+          <input type="password" placeholder="Enter Your password" name="pwd" id="pwd">
+          <p class="error pwdErr"></p>
+          <a href="#" class="eye-bt pt-2"><i class="fa-solid fa-eye-slash"></i></a>
+          </div><br>
+          <div class="main-name">
+          <label for="cpwd">Confrom Password</label><br>
+          <input type="password" placeholder="Enter Your password" name="cpwd" id="cpwd">
+          <p class="error cpwdErr"></p>
+          <a href="#" class="eye-bt2 "><i class="fa-solid fa-eye-slash"></i></a>
+          </div>
+           <div class="main-name">
+          <label for="cpwd">Location</label><br>
+          <input type="text" placeholder="Enter Your Location" name="location" id="location">
+          <p class="error locErr"></p>
+          </div>
+          <div class="text-center con-btn ">
+            <a href="./profile-deatails.html" class="">CONTINUE</a>
+          <!-- <input type="submit" value="CONTINUE" class="con-btn"> -->
+          </div>
+         </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </main> -->
+
+    <!-- popper cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap js link -->
+    <script src="./bootstrap/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+    <!-- cdn link -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- js link -->
+    <script src="./js/myprofile.js"></script>
+  </body>
+</html>
