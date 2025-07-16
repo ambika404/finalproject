@@ -42,6 +42,11 @@
 .sub-feed{
     margin-left: 70px;
     width: 30%;
+    
+}
+.sub-feed input{
+    background-color: #52AC03;
+    color: white;
 }
 .review a{
     color: #52AC03;

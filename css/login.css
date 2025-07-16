@@ -176,6 +176,9 @@ ul li{
     background-size: cover;
     /* height: 50vh; */
 }
+.create-ac{
+    color: #52AC03;
+}
 .main-ban{
     padding: 50px;
 }
@@ -183,6 +186,7 @@ ul li{
     margin-top: 45px;
     width: 80%;
     padding: 8px 0;
+    margin-bottom: 10px;
     /* padding: 8px 75px; */
 }
 .con-btn{
@@ -635,10 +639,16 @@ ul li{
     width: 200px;
     border-radius: 10px;
 }
+.main-goggle:hover{
+    transform: scale(1.1);
+}
 .main-apple{
      background-color: var(--black);
     width: 200px;
     border-radius: 10px;
+}
+.main-apple:hover{
+    transform: scale(1.1);
 }
 @media screen and (max-width:767px){
     .motos-app h5{

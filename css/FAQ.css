@@ -377,11 +377,17 @@ button{
     border-radius: 10px;
       box-shadow: 0 5px 10px black;
 }
+.main-goggle:hover{
+    transform: scale(1.1);
+}
 .main-apple{
      background-color: var(--black);
     width: 200px;
     border-radius: 10px;
       box-shadow: 0 5px 10px black;
+}
+.main-apple:hover{
+    transform: scale(1.1);
 }
 @media screen and (max-width:767px){
     .motos-app h5{

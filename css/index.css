@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+/* swiper */
 html,
     body {
       position: relative;
@@ -74,7 +74,7 @@ ul li{
     display: flex;
     justify-content: space-around;
     background-color:var(--green);
-     padding: 13px 0;
+    padding: 13px 0;
 }
 .topbar a{
     font-size: 15px;
@@ -85,6 +85,9 @@ ul li{
 }
 .part2{
     text-align: end;
+}
+.jk{
+    background-color: #000000;
 }
 .navbar{
     position: absolute;
@@ -148,6 +151,10 @@ ul li{
     border-radius: 10px;
     border: none;
 
+}
+.btn-prt:hover{
+    background-color: var(--green);
+    color: var(--white);
 }
 /* banner end */
 @media screen and (max-width:489px){
@@ -258,13 +265,13 @@ background: rgba(255, 255, 255, 0.2);
 }
 .through img{
     max-width: 100px;
-    margin-left: 80px;
+    margin-left: 110px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
 .body-1{
     padding-top: 40px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 .open-mon{
     color: var(--green);
@@ -342,6 +349,9 @@ background: rgba(255, 255, 255, 0.2);
     box-shadow:0 0 20px black;
     background: none !important;
 }
+.box-pic:hover{
+    box-shadow:0 0 10px var(--green);
+}
 .pic-black img{
     /* height: 70px; */
 }
@@ -405,6 +415,10 @@ background: rgba(255, 255, 255, 0.2);
 .partner p{
     font-size: 15px;
 }
+/* .meet{
+    display: flex;
+    flex-direction: column!;
+} */
 }
 /* partner end */
 /* clients say start */
@@ -421,6 +435,12 @@ background: rgba(255, 255, 255, 0.2);
 }
 .pic img{
     max-width: 60px;
+}
+.pic img:hover{
+    transform: scale(1.2);
+}
+.pic1 img:hover{
+    transform: scale(1.1);
 }
 .clients .no{
     font-size: 35px;
@@ -606,6 +626,9 @@ background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 5px 10px black;
 }
+.main-goggle:hover{
+    transform: scale(1.1);
+}
 /* .get-prt:hover{
     background-color: #52AC03;
     color: black;
@@ -616,6 +639,9 @@ background: rgba(255, 255, 255, 0.2);
     width: 200px;
     border-radius: 10px;
     box-shadow: 0 5px 10px black;
+}
+.main-apple:hover{
+     transform: scale(1.1);
 }
 /* .main-apple :hover{
     background-color: #52AC03;
