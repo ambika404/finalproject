@@ -89,6 +89,9 @@ ul li{
     .part2{
         text-align: center;
     }
+    .navbar{
+        margin-top: 70px;
+    }
     
 }
 /* end */
@@ -248,8 +251,93 @@ button{
     }
 }
 /* end */
+.focus_col{
+    margin: auto;
+}
+.focus_row{
+    background-color: white;
+    /* box-shadow: 0 0 10px gray; */
+    /* border-radius: 20px; */
+    padding: 20px 15px;
+    /* margin: auto; */
+    margin-left: 30px;
+}
+
+.form_con{
+    border: none;
+    background-color: rgb(236, 236, 234);
+    /* margin-top: 20px; */
+    padding: 10px 30px;
+    position: relative;
+}
+.form_con::placeholder{
+    color: black;
+    font-weight: 400;
+}
+.focusbt{
+    text-align: center;
+    margin: 30px 0;
+}
+.focusbt a{
+    background-color: #52AC03;
+    color: white;
+     border-radius: 10px; 
+     width: 30%;
+     padding: 10px 15px;
+}
+.focusbt a:hover{
+   background-image: linear-gradient(to right,white,gray);
+    color: black; 
+}
+
+.follow_para{
+    text-align: center;
+    font-weight: 500;
+}
+.follow_icon{
+    text-align: center;
+    margin-top: 20px;
+}
+.follow_icon a{
+    background-color: rgba(0, 0, 0, 0.537);
+    padding: 12px 17px;
+    border-radius: 50px;
+    margin: 0 10px;
+} 
+.follow_icon a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+ .focus_col{
+    position: relative;
+ }
+ .focus_icon{
+    color: greenyellow;
+    position: relative;
+    top: 44%;
+    left: 3%;
+    z-index: 1;
+ }
+ .focus_icon2{
+    color: greenyellow;
+    position: relative;
+    top: 45%;
+    left: 2%;
+    z-index: 1; 
+ }
+ .focus_icon3{
+     color: greenyellow;
+    position: relative;
+    top: 15%;
+    left: 2%;
+    z-index: 1; 
+ }
+ .ask{
+    text-align: center;
+    font-size: 40px;
+ }
 /* question part start */
-#name{
+/* #name{
     padding: 8px;
     max-width: 44%;
     width: 100%;
@@ -270,6 +358,9 @@ button{
     background-color: #D9D9D9;
     border: none;
 }
+.error{
+    color: #52AC03;
+}
 .area{
      background-color: #D9D9D9;
     border: none;
@@ -278,7 +369,6 @@ button{
 }
 .part-form{
     background-color: var(--white);
-    /* max-width: 1020px; */
     margin: auto;
 }
 .part-form h4{
@@ -309,13 +399,11 @@ button{
 }
 .user{
     position: absolute;
-    /* left: 60px; */
     color: var(--green);
 }
 .envelope{
     position: absolute;
     color: var(--green);
-    /* left: 40px; */
 }
 .msg-box{
     position: absolute;
@@ -330,7 +418,7 @@ button{
         display: none;
     }
     
-}
+} */
 
 /* end */
 /* motos app startr */

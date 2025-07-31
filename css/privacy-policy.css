@@ -115,6 +115,23 @@ ul li{
 .headban-2 .white{
     color: #FFFFFF;
 }
+@media screen and (max-width:489px){
+    .topbar .main-heading{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .part2{
+        text-align: center;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .navbar{
+        margin-top: 70px;
+    }
+    
+}
 /* policy information */
 .information{
     padding: 80px 0;

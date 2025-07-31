@@ -170,16 +170,65 @@
    </div>
          </section>
          <!-- question part -->
-          <section class="question">
+           <div class="col-md-10 p-5 ps-md-0 focus_col">
+              <div class="row g-3 focus_row">
+                <p class=" fw-semibold ask">Ask A Question</p>
+                <div class="col-md-6">
+                  <span class="focus_icon"><i class="fa-regular fa-user"></i></span>
+                  <input
+                    type="text"
+                    class="form-control form_con"
+                    id="name"
+                    placeholder=" Name"
+                    aria-label="First name"
+                  />
+                  <p class="error nameErr"></p>
+                </div>
+                <div class="col-md-6">
+                   <span class="focus_icon"><i class="fa-regular fa-envelope"></i></span>
+                  <input
+                    type="text"
+                    class="form-control form_con"
+                    id="mail"
+                    placeholder="  Email"
+                    aria-label="email"
+                  />
+                  <p class="error mailErr"></p>
+                </div>
+                 <div class="col-md-12">
+                  <span class="focus_icon2"><i class="fa-solid fa-tag"></i></span>
+                  <input
+                    type="text"
+                    class="form-control form_con"
+                    placeholder="   Enter enquery"
+                    id="sub"
+                    aria-label="subject"
+                  />
+                  <p class="error subErr"></p>
+                </div>
+               <div class="col-md-12">
+                <span class="focus_icon3"><i class="fa-regular fa-comment"></i></span>
+                 <textarea id="msg"  class="form-control form_con" placeholder="   Message" rows="8" cols="50"></textarea>
+                 <p class="error msgErr"></p>
+               </div>
+               <div class="focusbt">
+               <a href="#">Submit Now</a>
+                </div>
+            </div>
+            </div>
+          <!-- <section class="question">
             <div class="container">
                 <form class="text-center part-form">
                     <h4 class="py-4">Ask A Question</h4>
                     <span class="user pt-2 ms-3"><i class="fa-solid fa-user"></i></span>
              <input type="text" placeholder="       Name" name="name" id="name" class="me-3">
+             <p class="error nameErr"></p>
              <span class="envelope pt-2 ms-3"><i class="fa-solid fa-envelope"></i></span>
               <input type="email" placeholder="       Email" name="emailid" id="emailid"><br><br>
+              <p class="error mailErr"></p>
               <span class="grommate pt-2 ms-3"><img src="./images/grommet-icons_select.png"></span>
               <input type="text" placeholder="          Enter enquery" name="enquery" id="enquery"><br><br>
+              <p class="error enqueryErr"></p>
               <span class="msg-box pt-2"><i class="fa-solid fa-message"></i></span>
               <textarea type="msg" placeholder="     Message"  rows="4" class="area form-control"></textarea><br><br>
               <div class="subf-btn">
@@ -187,7 +236,7 @@
               </div>
               </form>
             </div>
-          </section>
+          </section> -->
          <!-- motos app -->
       <section class="motos-app">
         <div class="container">

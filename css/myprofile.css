@@ -97,7 +97,7 @@ ul li{
     position: relative;
     z-index: 2;
      background: #000000;
-      filter: brightness(30%);
+    filter: brightness(30%);
 
 }
 
@@ -106,7 +106,7 @@ ul li{
     /* text-align: center; */
     /* padding-bottom: 30px; */
     padding: 0 40px;
-    position: relative;
+    /* position: relative; */
     
 }
 .ban{
@@ -128,15 +128,16 @@ ul li{
     /* text-align: left; */
 }
 .eye-bt{
-    position: absolute;
-    right: 100px;
+    position:relative;
+    left: 75%;
     color: #797979;
+    top: 60px;
 }
 .eye-bt2{
-    position: absolute;
-    right: 100px;
+    position:relative;
+    left:75%;
     color: #797979;
-    bottom: 190px;;
+    bottom: 140px;
 }
 #no{
      padding: 8px;
@@ -207,8 +208,9 @@ ul li{
 }
 .error{
     color: var(--green);
-    text-align: right;
-    padding-top: 10px;
+    margin-bottom: 0 !important;
+    /* text-align: right; */
+    /* padding-top: 10px; */
 }
 .nine{
     position: absolute;

@@ -129,6 +129,9 @@ ul li{
     .banner h1{
         font-size: 30px;
     }
+    .navbar{
+        margin-top: 70px;
+    }
     
 }
 /* banner end */
@@ -160,8 +163,8 @@ ul li{
 } */
  .error{
     color: var(--green);
-    text-align: right;
-    padding-top: 20px;
+    /* text-align: right; */
+    /* padding-top: 20px; */
  }
 .lower-ban{
     background-color: var(--white);
