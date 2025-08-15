@@ -261,12 +261,13 @@ ul li{
     width: 100%;
 }
 .first-img{
-    width: 430px !important;
+    width: 380px !important;
 }
 .second img{
-    width: 380px !important;
+    width: 350px !important;
     height: 520px;
-    margin-left: 140px !important;
+    margin-left: 180px !important;
+    /* margin-left: 140px !important; */
 }
 
 .brake-part h5{
@@ -282,6 +283,13 @@ ul li{
 
 }
 @media screen and (max-width:1199px){
+    .second img{
+        padding-left: 15% !important;
+    }
+    /* .repair-service{
+        display: flex;
+        flex-direction: column;
+    } */
     .box-size{
         margin-right: 0 !important;
     }
@@ -369,7 +377,8 @@ ul li{
     background: var(--green);
     width: 5px;
     height: 30px;
-    right: 120%;
+    right: 110%;
+    /* right: 120%; */
 }
 .second img{
     width: 100% !important;
@@ -446,6 +455,7 @@ text-shadow: 0 0 10px#797979;
 @media screen and (max-width:991px){
     .customer-care p{
         font-size: 13px;
+        text-align: left;
     }
     .customer-care span{
         font-size: 15px;
@@ -460,6 +470,9 @@ text-shadow: 0 0 10px#797979;
         display: flex;
         flex-direction: column;
         margin-left: 10% !important;
+    }
+    .customer-care p{
+        text-align: left !important;
     }
     
 

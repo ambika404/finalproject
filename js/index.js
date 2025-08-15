@@ -74,3 +74,154 @@ $('.navbar-toggler').on('click',function(){
 //     $(".hide").fadeIn(5000);
 // });
 
+ // copy
+
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+     
+       navigation: {
+        nextEl: ".left",
+        prevEl: ".right",
+      },
+      
+       breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    991: {
+       slidesPerView: 2,
+      spaceBetween: 40
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+  },
+  
+
+  });
+      
+  var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+       breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    991: {
+       slidesPerView: 2,
+      spaceBetween: 40
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+  },
+  
+
+   navigation: {
+        nextEl: ".left",
+        prevEl: ".right",
+      },
+  });
+
+//   two
+
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+     
+       navigation: {
+        nextEl: ".left2",
+        prevEl: ".right2",
+      },
+      
+       breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    991: {
+       slidesPerView: 2,
+      spaceBetween: 40
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+  },
+  
+
+  });
+      
+  var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+       breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    991: {
+       slidesPerView: 2,
+      spaceBetween: 40
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+  },
+  
+
+   navigation: {
+        nextEl: ".left2",
+        prevEl: ".right2",
+      },
+  });

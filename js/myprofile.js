@@ -19,8 +19,7 @@ $(document).ready(function (){
                 $('.nameErr').html("minimum 8 characters")
             }
             else{
-                $('.nameErr').show()
-                $('.nameErr').html("name is okay")
+                $('.nameErr').hide()
             }
         })
 
@@ -50,9 +49,12 @@ $(document).ready(function (){
                 $('.mailErr').show()
                 $('.mailErr').html("input a valid email id")
             }
-            else{
+            else if(data1.length<10){
                 $('.mailErr').show()
                 $('.mailErr').html("email is okay")
+            }
+            else{
+                $('.mailErr').hide()
             }
         })
         // password
