@@ -79,6 +79,9 @@ ul li{
 .active{
     color: var(--green) !important;
 }
+.navbar-toggler{
+    background-color: #52AC03;
+}
 @media screen and (max-width:489px){
     .topbar .main-heading{
         display: flex;
@@ -175,11 +178,22 @@ color: var(--black);
 .car-part{
     margin-bottom: 50px;
 }
-.car-part .col :hover{
-    box-shadow: 0 0 15px var(--darkgrey);
+.car-part .col:hover{
+     transform: translateY(-5px);
+        transition: transform 0.7s ease-in-out;
 }
+.car-part img:hover{
+    transform: scale(0.9);
+}
+.car-part-2 img:hover{
+    transform: scale(0.9) !important;
+}
+/* .car-part .col :hover{
+    box-shadow: 0 0 15px var(--darkgrey);
+} */
 .car-part-2 .col :hover{
-     box-shadow: 0 0 15px var(--darkgrey);
+      transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
 }
 .car-part-2{
     margin-bottom: 50px;

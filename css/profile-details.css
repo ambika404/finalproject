@@ -82,6 +82,9 @@ ul li{
 .active{
     color: var(--green) !important;
 }
+.navbar-toggler{
+    background-color: #52AC03;
+}
 /* banner */
 .banner{
     background-image: url('../images/Group\ 119.png');
@@ -812,6 +815,10 @@ ul li{
 .term p{
     display: inline-block;
     margin-top: 0 !important;
+}
+.con-btn:hover{
+    background-color: #000000;
+    color: #FFFFFF;
 }
 @media screen and (max-width:1199px){
     .footer .col{

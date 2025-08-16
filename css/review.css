@@ -11,8 +11,10 @@
 }
 .review{
     max-width: 600px;
-    padding-top: 150px;
-    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 100px auto;
+   background-color: gray;
 }
 .review input{
     padding: 5px 0;
@@ -50,6 +52,14 @@
 }
 .review a{
     color: #52AC03;
+}
+.sub-btn:hover{
+    color: #52AC03;
+    background-color:#000000;
+}
+.error{
+    color: #000000;
+    text-align: center;
 }
 @media screen and (max-width:767px){
     .review input{

@@ -116,7 +116,9 @@ ul li{
      border-radius: 50px;
      color: var(--white);
 }
-
+.navbar-toggler{
+    background-color: #52AC03;
+}
 .active{
     color: var(--green) !important;
 }

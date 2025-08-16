@@ -116,6 +116,9 @@ ul li{
 .active{
     color: var(--green) !important;
 }
+.navbar-toggler{
+    background-color: #52AC03;
+}
 @media screen and (max-width:489px){
     .topbar .main-heading{
         display: flex;

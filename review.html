@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link css -->
-    <link rel="stylesheet" href="./css/review.css">
      <!-- bootstrap css -->
     <link
       rel="stylesheet"
       href="./bootstrap/bootstrap-5.3.5-dist/css/bootstrap.min.css"
     />
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/review.css">
     <!-- font awsome cdn link -->
     <link
       rel="stylesheet"
@@ -39,6 +39,7 @@
           <h2 class="py-2">Reviews</h2>
         <label for="nametext">Name *</label>
         <input type="text" name="nametext" id="nametext"><br><br>
+        <p class="error nameErr"></p>
          <label for="notext">Number *</label>
         <input type="number" name="no" id="notext">
         <span>Rating*</span>
@@ -49,8 +50,9 @@
             <a href="#"><i class="fa-solid fa-star"></i></a><br><br>
          <label for="name">Review *</label>
         <input type="text" name="review2" id="review2"><span class="ms-3 dollar">$ 60.00</span><br><br>
+        <p class="error revErr"></p>
         <div class="sub-feed">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="sub-btn">
         </div>
             </div>
     </form>
@@ -64,5 +66,9 @@
     ></script>
     <!-- bootstrap js link -->
     <script src="./bootstrap/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+     <!-- cdn link -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- js link -->
+    <script src="./js/review.js"></script>
 </body>
 </html>

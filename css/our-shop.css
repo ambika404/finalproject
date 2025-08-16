@@ -80,6 +80,9 @@ ul li{
 .active{
     color: var(--green) !important;
 }
+.navbar-toggler{
+    background-color: #52AC03;
+}
 @media screen and (max-width:489px){
     .topbar .main-heading{
         display: flex;
@@ -177,6 +180,10 @@ ul li{
 .shop-box img:hover{
     transform: scale(1.2);
 }
+.shop-box:hover{
+        transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
+ } 
 #search{
     padding: 7px 15px;
     /* width: 60%; */
@@ -187,10 +194,14 @@ ul li{
     position: relative;
     padding: 20px;
 }
-.board :hover{
+.board2:hover{
+        transform: translateY(-15px);
+        transition: transform 0.9s ease-in-out;
+ } 
+/* .board :hover{
     box-shadow: 0 10px  7px#797979;
-}
-.board {
+} */
+.board:hover {
     box-shadow: 0 5px 5px var(--green);
 }
 .m-glass{

@@ -82,6 +82,9 @@ ul li{
 .active{
     color: var(--green) !important;
 }
+.navbar-toggler{
+    background-color: #52AC03;
+}
 /* ban part */
 .log-in{
     max-width: 100%;
@@ -833,6 +836,10 @@ background: rgba(255, 255, 255, 0.2);
 .term p{
     display: inline-block;
     margin-top: 0 !important;
+}
+.con-btn:hover{
+    background-color: #000000;
+    color: #FFFFFF;
 }
 @media screen and (max-width:1199px){
     .footer .col{
